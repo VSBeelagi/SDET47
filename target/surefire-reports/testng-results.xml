@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven_Package.ParameterTest" duration-ms="36" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="36" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+      <class name="Maven_Package.ParameterTest">
+        <test-method status="PASS" signature="test()[pri:0, instance:Maven_Package.ParameterTest@5383967b]" name="test" duration-ms="4" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- Maven_Package.ParameterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Maven_Package.ParameterTest -->
+</testng-results>
