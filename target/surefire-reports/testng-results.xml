@@ -1,17 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Maven_Package.ParameterTest" duration-ms="36" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+  <suite name="Command line suite" duration-ms="31" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
     <groups>
+      <group name="regression">
+        <method signature="TS_01Test.test2()[pri:0, instance:Maven_Package.TS_01Test@6536e911]" name="test2" class="Maven_Package.TS_01Test"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="SampleScriptTest.create()[pri:0, instance:Maven_Package.SampleScriptTest@6b09bb57]" name="create" class="Maven_Package.SampleScriptTest"/>
+        <method signature="TS_01Test.test1()[pri:0, instance:Maven_Package.TS_01Test@6536e911]" name="test1" class="Maven_Package.TS_01Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Command line test" duration-ms="36" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+    <test name="Command line test" duration-ms="31" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
+      <class name="Maven_Package.TS_01Test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Maven_Package.TS_01Test@6536e911]" name="test1" duration-ms="0" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Maven_Package.TS_01Test@6536e911]" name="test2" duration-ms="0" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Maven_Package.TS_01Test -->
+      <class name="Maven_Package.SampleScriptTest">
+        <test-method status="PASS" signature="create()[pri:0, instance:Maven_Package.SampleScriptTest@6b09bb57]" name="create" duration-ms="0" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- Maven_Package.SampleScriptTest -->
       <class name="Maven_Package.ParameterTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:Maven_Package.ParameterTest@5383967b]" name="test" duration-ms="4" started-at="2023-03-31T16:09:43 IST" finished-at="2023-03-31T16:09:43 IST">
+        <test-method status="PASS" signature="test()[pri:0, instance:Maven_Package.ParameterTest@20398b7c]" name="test" duration-ms="3" started-at="2023-04-05T15:34:08 IST" finished-at="2023-04-05T15:34:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
       </class> <!-- Maven_Package.ParameterTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- Maven_Package.ParameterTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
