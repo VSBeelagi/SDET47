@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2023-03-31T16:08:32 IST" finished-at="2023-03-31T16:08:32 IST">
+  <suite name="Suite" duration-ms="35" started-at="2023-04-05T21:18:32 IST" finished-at="2023-04-05T21:18:32 IST">
     <groups>
+      <group name="smoke">
+        <method signature="SampleScriptTest.create()[pri:0, instance:Maven_Package.SampleScriptTest@631330c]" name="create" class="Maven_Package.SampleScriptTest"/>
+        <method signature="TS_01Test.test1()[pri:0, instance:Maven_Package.TS_01Test@9a7504c]" name="test1" class="Maven_Package.TS_01Test"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2023-03-31T16:08:32 IST" finished-at="2023-03-31T16:08:32 IST">
-      <class name="Maven_Package.ParameterTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:Maven_Package.ParameterTest@2173f6d9]" name="test" duration-ms="7" started-at="2023-03-31T16:08:32 IST" finished-at="2023-03-31T16:08:32 IST">
+    <test name="Test" duration-ms="35" started-at="2023-04-05T21:18:32 IST" finished-at="2023-04-05T21:18:32 IST">
+      <class name="Maven_Package.TS_01Test">
+        <test-method status="PASS" signature="test1()[pri:0, instance:Maven_Package.TS_01Test@9a7504c]" name="test1" duration-ms="1" started-at="2023-04-05T21:18:32 IST" finished-at="2023-04-05T21:18:32 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- Maven_Package.ParameterTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- Maven_Package.TS_01Test -->
+      <class name="Maven_Package.SampleScriptTest">
+        <test-method status="PASS" signature="create()[pri:0, instance:Maven_Package.SampleScriptTest@631330c]" name="create" duration-ms="5" started-at="2023-04-05T21:18:32 IST" finished-at="2023-04-05T21:18:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+      </class> <!-- Maven_Package.SampleScriptTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
